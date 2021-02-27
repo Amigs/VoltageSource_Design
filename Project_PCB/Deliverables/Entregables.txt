@@ -1,12 +1,36 @@
- Fuente de voltaje para +12V fijos -2A, 5V fijos-2A, 3.3V fijos 1A.
- Para uso de estudiantes en sus prácticas de la Universidad.
- Que sea a prueba de errores.
- Que se pueda saber si está funcionando o no.
- Que pueda ser reemplazable sus componentes en caso de daño.
- Se pueda probar cada etapa o parte del circuito.
- Fabricación local.
- Ensamble local.
- Bajo costo.
- Postes o tornillos para que se pueda levantar y sujetar el PCB.
- Caja o encerramiento.
- Opcional: base para ser fijado el PCB con 4 tornillos en las esquinas.
+1) Diseño para ensamble DFA
+
+- Componente más pequeño a ensamblar (lista de tamaños a usar cual? ejemplo 1206 0805, 0402, 0603): 
+
+- Uso de BGA o QFN (S/N)?
+- Componente mas grande a ensamblar  (ejemplo QFP 208 pines, BGA 3000 pines, QFN 100 pines)
+- Espaciamiento mínimo entre pines de componentes TIPO circuito integrado (pitch, ejemplo 1mm, 08mm, 065mm, 05, mm 0,4mm, 0.3 mm)
+- Procesos a usar de soldadura (soldadura manual, soldadura reflujo, soldadura ola, selectiva)
+- Pruebas a circuitos impresos ensamblados(S/N: ejemplO: como ? multimetro? puntas de pruebas? )
+- Ensamble por los dos lados (S/N):
+- Cantidad de tarjetas a producir
+- Reparación (S/N) (que se pueda reparar)
+
+Esto no se pregunta, se coloca en Altium, en el esquemático:
+
+
+- Espaciamiento de 1.5mm entre bordes
+- Componentes en paralelo y ordenadamente
+- En ángulos de 0ºa 90º, .
+- Optimicen el flujo de aire y de calor
+- Orientación/alineación del componente: Disposición Pin 1 en el mismo sentido
+- Documentación necesaria para el ensamble
+
+
+2)  Lo mismo que en el punto 1 pero para pruebas:
+
+Diseño para pruebas DFT
+
+- Que puntos de test son importantes: (hacer listado, minimo 5)
+- Que alimentación se debe probar (voltajes, lista de voltajes a probar)
+- Que señales importantes se deben probar (lista de señales, minimo 5)
+- Como se prueban esas señales (que jumpers o señal se debe aplicar para obtener una respuesta)
+- Como es el protocolo de puebas? (pasos para Probar el circuito por bloques: etapa 1, etapa 2, etapa 3)
+- Como se implementa el auto-test (self test) (a que IC se le inyecta un estimulo para que el ejecute el auto test).
+
+Esta tarea se implemente en el esquematico principal del proeyecto, como se explico en clase, y se recibe el día miércoles, en clase de 2 a 4 pm.
