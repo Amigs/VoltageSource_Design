@@ -1,0 +1,12 @@
+ Fuente de voltaje para +12V fijos -2A, 5V fijos-2A, 3.3V fijos 1A.
+ Para uso de estudiantes en sus prácticas de la Universidad.
+ Que sea a prueba de errores.
+ Que se pueda saber si está funcionando o no.
+ Que pueda ser reemplazable sus componentes en caso de daño.
+ Se pueda probar cada etapa o parte del circuito.
+ Fabricación local.
+ Ensamble local.
+ Bajo costo.
+ Postes o tornillos para que se pueda levantar y sujetar el PCB.
+ Caja o encerramiento.
+ Opcional: base para ser fijado el PCB con 4 tornillos en las esquinas.
